@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Poppins;
+    box-size:border-box;
+}
+
+.main
+{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+    padding: 50px 740px 0px 80px;
+    background-color: orange;
+    font-size: 40px;
+    color: white;
+}
+
+.option1
+{
+    padding: 50px 80px 0px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.option
+{
+    font-size: 20;
+    display: flex;
+    margin: 0px 60px 0px 0px;
+    align-items: center;
+}
+
+.button
+{
+    border-radius: 50px;
+    padding: 12px 20px 12px 20px;
+    background-color: orange;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: top;
+    font-weight: bold;
+}
+
+.work
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.color
+{
+    background-color: orange;
+}
+.heading
+{
+    color: white;
+    margin:90px 193px 0px 300px;
+    padding: 140px 0px 0px 0px;
+    font-size: 80px;
+    width: 500px;
+}
+.terms
+{
+    color: white;
+    padding: 0px 0px 0px 305px;
+}
+.free
+{
+    margin: 80px 0px 220px 300px;
+    font-size: 13px;
+    background-color: white;
+    border: none;
+    color: orange;
+    font-weight: bold;
+    padding: 13px 65px 13px 65px ;
+    border-radius: 30px;
+}
+.demo
+{
+    margin: 0px 0px 0px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border:2px white solid;
+    padding: 13px 65px 13px 65px ;
+    border-radius: 30px;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 120 250 0 0;
+}
+
+.dots
+{
+    position: absolute;
+    display: flex;
+    align-items: start;
+    z-index: 1;
+}
+.img1
+{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    padding: 30px 0px 0px 30px;
+}
+
+.tb2
+{
+    position: absolute;
+    margin: 20px 30px ;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20;
+    z-index: 1;
+}
+.word
+{
+    font-size: 15px;
+    padding: 30px 0px 0px 42px;
+    position: absolute;
+    z-index: 2;
+}
+.simg
+{
+    z-index: 3;
+    position: absolute;
+    margin: 20px 0px 0px 120px;
+}
+
+.msg
+{
+    margin: 50px 0px 0px 10px;
+    border-radius: 0px 50px 50px 50px;
+}
+.row2
+{
+    margin: 150px 50px 0px -58px;
+}
+.simg1
+{
+    margin: 0px 0px 60px 100px;
+}
+
+.tb1
+{
+    position: absolute;
+    z-index: 1;
+    margin: 0px 0px 0px 10px;
+    width: 220;
+}
+.word1
+{
+    position: absolute;
+    z-index: 2;
+    font-size: 15;
+    margin: 0px 0px 0px 10px;
+    padding: 12px 0px 0px 10px;
+}
+.dots1
+{
+    z-index: 1;
+    position: absolute;
+    margin: 30px 0px 0px 0px;
+}
+
+.img2
+{
+    z-index: 2;
+    position: absolute;
+    padding:30px 0px 0px 118px;
+}
+
+.head
+{
+    padding: 150 0 0 0 ;
+    font-size: 50px;
+    text-align: center;
+}
+.detail
+{
+    color: gray;
+    text-align: center;
+    padding: 60 0 0 610;
+    width: 670;
+}
+.pic
+{
+    padding: 100 0 200 500;
+}
+.bdots
+{
+    position: absolute;
+    z-index: 1;
+    padding: 0 0 420 0;
+}
+.chats
+{
+    position: absolute;
+    z-index: 2;
+    padding: 30 0 0 60;
+}
+.dots2
+{
+    padding: 450 0 0 680;
+    position: relative;
+    z-index: 1;
+}
+.page3
+{
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.258);
+}

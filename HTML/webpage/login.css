@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+body
+{
+background-image: url(project3.jpg);
+background-size: cover;
+}
+.div:hover
+{
+    box-shadow:0 0 100px rgba(5, 32, 1, 0.359);
+    
+}
+.div
+{
+ background-color: rgba(4, 12, 0, 0.234);
+ border-radius: 50px;
+ margin-left: 690px;
+ margin-top: 90px;
+ margin-right: 660px;
+ z-index: 1;
+}
+.mrq
+{
+    cursor: default;
+    background-color: rgba(5, 32, 1, 0.359);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    font-size: 25px;
+    font-family: kalnia;
+}
+.login
+{
+    cursor: default;
+    padding: 40px;
+    font-family:cursive;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.user:active
+{
+    border-color: rgb(244, 195, 0);
+    background-color: rgba(255, 255, 255, 0.357);
+}
+.user
+{
+margin-left: 60px;
+margin-top: 10px;
+height: 50;
+width: 420;
+font-size: 20;
+padding-left: 20px;
+border-color: rgb(244, 195, 0);
+border-radius: 90px;
+outline: none;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: rgba(0, 0, 255, 0);
+}
+
+.pswd
+{
+margin-left:60px;
+margin-top:60px;
+margin-bottom: 15px;
+font-size: 20;
+font-weight: 100;
+height: 50;
+width: 420;
+padding-left: 20px;
+border-color: rgb(244, 195, 0);
+outline: none;
+border-radius:90px ;
+background-color: rgba(137, 43, 226, 0);
+}
+.forpass
+{
+    margin-left:340px;
+    color: rgb(45, 94, 0);
+    font-size: 20;
+    height: 40px;
+    width: 240px;
+}
+.ok
+{
+    margin-left:120px;
+    margin-top: 50px;
+    margin-bottom: 100;
+    border-radius: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+    border-color: rgb(244, 163, 0);
+    background-color: rgba(20, 23, 1, 0.263);
+    height: 50px;
+    width: 300px;
+}
+.gt
+{
+   font-size: 40px;
+   margin: 65 750 0 750;
+   border-radius: 70px;
+   background-color: rgba(0, 0, 0, 0);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+}
+.gt:hover
+{
+    z-index: 2;
+}
+.p
+{   padding-left: 20px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.p:hover
+{
+    z-index: 3;
+    transform: scale(1.9);
+    background-color: rgba(240, 248, 255, 0); 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
